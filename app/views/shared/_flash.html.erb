@@ -5,8 +5,9 @@
     </div>
 <% end %>
 
-<% if flash[:notice] %>
+ <% if flash[:alert] %>
     <div class="alert alert-warning mt-4" role="alert">
         <%= flash.now[:alert] %>
     </div>
-<% end %>
+<% end %> 
+
